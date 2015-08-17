@@ -1,0 +1,30 @@
+pkgbase = tvtime-ubuntu
+	pkgdesc = A high quality television application for use with video capture cards, with patches from Ubuntu.
+	pkgver = 1.0.2_12.1ubuntu3
+	pkgrel = 1
+	url = http://tvtime.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = LGPL
+	makedepends = libxt
+	makedepends = v4l-utils
+	depends = libpng
+	depends = libxml2
+	depends = freetype2
+	depends = libxinerama
+	depends = libxv
+	depends = libsm
+	depends = libxxf86vm
+	depends = alsa-lib
+	depends = libxss
+	depends = hicolor-icon-theme
+	provides = tvtime
+	conflicts = tvtime
+	source = http://downloads.sourceforge.net/sourceforge/tvtime/tvtime-1.0.2.tar.gz
+	source = http://archive.ubuntu.com/ubuntu/pool/universe/t/tvtime/tvtime_1.0.2-12.1ubuntu3.diff.gz
+	md5sums = 4b3d03afe61be239b08b5e522cd8afed
+	md5sums = c8eaa992d551d69fae3c5401bd027e93
+
+pkgname = tvtime-ubuntu
+
